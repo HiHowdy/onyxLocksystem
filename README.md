@@ -3,6 +3,9 @@ Onyx Locksystem is a car key lock system with additional features, you must have
 
 The key system can be used in other scripts to give players keys from other scripts, you'll probably want to use it in your garage script and car dealership script.
 
+![image](https://i.imgur.com/6HXahC6.png)
+
+
 # Features
 * Locking/Unlocking vehicles with keys
 * Hotwiring vehicles with multiple stages
