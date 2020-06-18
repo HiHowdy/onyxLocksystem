@@ -16,3 +16,6 @@ I plan to update this over time adding more features to the script, such as lock
 
 # Use
 `exports["onyxLocksystem"]:givePlayerKeys(plate)`
+
+## Support Discord
+https://discord.gg/AfYDUGW
