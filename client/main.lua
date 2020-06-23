@@ -308,24 +308,6 @@ Citizen.CreateThread(function()
     end
 end)
 
--- if GetDistanceBetweenCoords(pos.x, pos.y, pos.z, entPos.x, entPos.y, entPos.z, false) < 4.5 and canRob then
---     if not IsEntityDead(aimingEnt) then
---         DrawText3Ds(entPos.x, entPos.y, entPos.z, 'Press ~y~[E]~w~ to rob')
---         print('message should pop up')
---         if IsControlJustReleased(0, 38) then
---             local plate = GetVehicleNumberPlateText(prevCar)
---             exports['progressBars']:startUI(3500, "Taking Keys")
---             Wait(3600)
---             givePlayerKeys(plate)
---             exports['mythic_notify']:DoHudText('inform', 'You rob the keys')
---             canRob = false
---         end
---     end
-
-RegisterCommand('weapon', function(source, args)
-    GiveWeaponToPed(GetPlayerPed(-1), "WEAPON_PISTOL", 1000, false, false)
-end)
-
 function beginRobTimer(entity)
     local timer = 18
 
